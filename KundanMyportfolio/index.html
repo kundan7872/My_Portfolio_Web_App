@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth;">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, CSS, JavaScript,Java,Portfolio,Portfolio Template,Resume,Developer,Full Stack,kundanmyportfolio">
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <title>MyPortfolio</title>
+    <link rel="icon" href="./Media/Img/fvaincon1.png">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+
+<body>
+    <!--oncontextmenu="return false"-->
+
+    <div class="bgAnimation" id="bgAnimation">
+        <div class="backgroundAnim">
+
+        </div>
+        <!--Menubar Start Here-->
+    </div>
+    <header class="header">
+
+        <a href="#" class="logo">Portfolio</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#portfolio">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <!--Menubar End Here-->
+    <!--My info Start Here-->
+    <section class="home" id="home">
+        <div class="home-content" style="font-family:'Times New Roman', Times, serif;">
+            <h3>Hello, Its Me</h3>
+            <h1>Kundan Kumar Singh</h1>
+
+
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>"I love to create beautiful and performant projects with delightful user experiences."</p>
+            <div class="social-media" style="text-align: center;">
+                <a href="https://github.com/kundan7872/Front-End" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100010673881145&mibextid=ZbWKwL" target="_blank"><i class='bx bxl-facebook'></i></a>
+                <a href="https://youtube.com/@TechandFun12?si=vF7NlcSmdn3hlDH1"><i class='bx bxl-youtube'></i></a>
+                <a href="https://www.linkedin.com/in/kundanksingh78/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+            </div>
+            <div class="button-container">
+                <a href="./Media/Doc/KUNDAN SINGH_JAVA_DEVELOPER.pdf" class="btn" target="_blank" download="kundan_resume">Download CV</a>
+            </div>
+        </div>
+
+    </section>
+    <!--My info Start Here-->
+    <!--About Me Start Here-->
+
+    <section class="about" id="about">
+
+        <div class="about-img">
+            <img src="./Media/Img/mypic.jpg" alt="my_pic">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Full Stack Developer (Java)</h3>
+            <p>My name is Kundan Kumar Singh currently pursuing B-Tech in CSE from Rajiv Gandhi Proudyogiki Vishwavidyalaya ,Bhopal MP my current Percentage is 72.9%. I have completed my Diploma In Electrical And Electronic,Arunachal Unversity
+                Of Study. I scored 69.8% in Diploma. I also have 2.5 years of experience as a Junior Web Developer at <a href="https://www.text2world.com/" target="_blank">Text2World Pvt. Ltd.</a>  Mumbai. 
+                I am skilled in Core Java, JSP, Servlet, Oracle, JavaScript, HTML, CSS, and Spring Boot. I have a strong understanding of Java programming and backend development, along with experience in building responsive web applications.           
+             </p>
+
+            <a class='btn' href="./read_more.html">Read More</a>
+
+        </div>
+    </section>
+    <!--About Me Start Here-->
+    <!--Project Information Start Here-->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest<span>Projects</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box" >
+                <img src="./Media/Img/loading.png" alt="Sca Live Img" width="150px" height="300px" >
+                <div class="portfolio-layer">
+                    <h4>YumXpress Food Delivery Desktop App</h4>
+                    <p>Utilized Java GUI programming and Oracle Database to develop a user-friendly
+                        and visually engaging desktop application for seamless food ordering, and  effcient delivery management.
+                        Integrated secure user authentication, comprehensive food selection interface, and enjoyable food
+                        delivery experience.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="./Media/Img/mcc.jpeg" alt="MCC" width="150px" height="300px">
+                <div class="portfolio-layer">
+                    <h4>M. Coaching Centre</h4>
+                    <p>Utilized HTML , CSS,Google sheet script ,API and JAVASCRIPT 
+                        programming to develop a user-friendly and visually engaging Web application for halndling student
+                        data and requirements, Integrated secure user authentication, comprehensive student and admin
+                        selection interface.</p>
+                    <a href="https://mcoachingcenter.in/" target="_blank"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="./Media/Img/SCM.jpg" alt="SCM banner" width="150px" height="300px" >
+                <div class="portfolio-layer">
+                    <h4>Smart contact Manager</h4>
+                    <p>Spring boot, Java, MySQL, Thymeleaf, Java Email API, Javascript, CSS,
+                        It is a responsive and secure web app that lets users eciently manage personal and professional
+                        contacts, with features to add, view, edit, and delete contacts. It prioritizes user experience and data
+                        security across all devices</p> <a href="https://drive.google.com/drive/folders/1zZqJUBDZDWnFPglnPRtZ2Eru_7mD9sX_" target="_blank"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Project Information End  Here-->
+    <!--Concat form Start Here-->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact<span>Me!</span></h2>
+        <form action="#" name="cotactform">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name" id="Name" />
+
+                <input type="email" placeholder="Email Address" id="Email" />
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile number" id="mob" />
+
+                <input type="text" placeholder="Email Subject" id="subject" />
+            </div>
+            <div class="input-box">
+                <textarea cols="10" rows="10" placeholder="Your message" id="message"></textarea>
+            </div>
+            <!-- <script src="Js_Code/Contact.js"></script> -->
+
+            <input type="submit" value="Send Message" id="btn" />
+        </form>
+    </section>
+    <!--Contact form End Here-->
+
+    <!--footer Start Here-->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy;2023 by Kundan | All Right Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <!--footer End Here-->
+    <!---Js File Link-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="./Js_Code/style.js"></script>
+    <script src="Js_Code/validation.js"></script><script src="https://kit.fontawesome.com/ac883732dd.js" crossorigin="anonymous"></script>
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+</body>
+
+</html>
